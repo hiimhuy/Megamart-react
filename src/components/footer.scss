@@ -1,0 +1,161 @@
+.footer {
+  position: relative;
+
+  width: 100%;
+  background-color: #008ecc;
+}
+.footer_heading {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 120px;
+  color: #ffffff;
+}
+.footer_heading-left {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: flex-start;
+
+  h2 {
+    font-family: "HK Grotesk";
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: normal;
+    padding: 40px 0;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-family: "HK Grotesk";
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 20px;
+  }
+}
+
+.footer_heading-left_whatsapp {
+  padding: 16px 0;
+}
+.footer_heading-left_appsize {
+  width: 24px;
+  height: 24px;
+}
+.footer_heading-left_apptext {
+  font-family: "HK Grotesk";
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 0;
+  margin: 0;
+}
+.footer_heading-left_phonenumber {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+.footer_heading-left_download {
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    padding: 14px 0;
+    margin: 0;
+  }
+}
+.footer_heading-left_appstore {
+  max-width: 191px;
+  height: 56px;
+  display: flex;
+  gap: 16px;
+}
+
+.footer_heading-right {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  right: 0;
+  width: 50%;
+  height: 360px;
+  top: 40px;
+  justify-content: space-between;
+}
+.footer_heading-right_sizetext {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 20px;
+  padding: 6px 0;
+}
+.footer_heading-right_popular {
+  span {
+    position: absolute;
+    border: 2px solid #ffffff;
+    width: 248px;
+  }
+
+  h3 {
+    padding: 4px 0;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    position: absolute;
+    left: -10px;
+    bottom: -20px;
+  }
+}
+
+.footer_heading-right_popular > ul > li {
+  padding: 8px 6px;
+}
+.footer_heading-right_services {
+  position: absolute;
+  right: 120px;
+
+  span {
+    position: absolute;
+    border: 2px solid #ffffff;
+    width: 185px;
+  }
+
+  h3 {
+    padding: 4px 0;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    padding: 0px 24px;
+  }
+}
+
+.footer_heading-right_services > ul > li {
+  padding: 8px 6px;
+}
+.footer_ending {
+  display: flex;
+  justify-content: center;
+
+  span {
+    border: 1px solid #05abf3;
+    position: absolute;
+    width: 1198px;
+  }
+
+  h1 {
+    font-family: "HK Grotesk";
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #ffffff;
+    padding: 30px 0 0 0;
+    margin-top: 0;
+  }
+}
