@@ -1,5 +1,11 @@
 import React from "react";
 import "./footer.scss";
+import {
+  AppStoreLogo,
+  GooglePlayLogo,
+  PhoneCall,
+  WhatsappLogo,
+} from "phosphor-react";
 
 export const Footer = () => {
   return (
@@ -10,22 +16,14 @@ export const Footer = () => {
           <h3>Contact Us</h3>
           <div class="footer_heading-left_whatsapp">
             <h5 class="footer_heading-left_apptext">
-              <img
-                class="footer_heading-left_appsize"
-                src="../assets/footer/ant-design_whats-app-outlined.png"
-                alt=""
-              />
+              <WhatsappLogo size={28} />
               Whats App
             </h5>
             <h4 class="footer_heading-left_phonenumber">+1 202-918-2132</h4>
           </div>
           <div class="footer_heading-left_call">
             <h5 class="footer_heading-left_apptext">
-              <img
-                class="footer_heading-left_appsize"
-                src="../assets/footer/Call.png"
-                alt=""
-              />
+              <PhoneCall size={28} />
               Call Us
             </h5>
             <h4 class="footer_heading-left_phonenumber">+1 202-918-2132</h4>
@@ -34,8 +32,8 @@ export const Footer = () => {
           <div class="footer_heading-left_download">
             <h3>Download App</h3>
             <div class="footer_heading-left_appstore">
-              <img src="../assets/footer/image 11.png" alt="" />
-              <img src="../assets/footer/image 10.png" alt="" />
+              <GooglePlayLogo size={32} />
+              <AppStoreLogo size={32} />
             </div>
           </div>
         </div>

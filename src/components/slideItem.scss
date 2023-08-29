@@ -33,13 +33,6 @@
   }
 }
 
-// .slide-item-id {
-//   width: 8px;
-//   height: 8px;
-//   background-color: #fff;
-//   border-radius: 4px;
-// }
-
 .btn {
   position: absolute;
   height: 80px;
@@ -50,6 +43,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  z-index: 1;
 
   .btn-child {
     background-color: #f3f9fb;
@@ -67,5 +62,33 @@
 
   &:last-child {
     right: 120px;
+  }
+}
+
+.all-slide {
+  position: relative;
+
+  .spotlights {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    bottom: 60px;
+    left: 120px;
+  }
+}
+
+.spotlight {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: background-color 0.3s;
+
+  &.active {
+    background-color: #fff;
+    width: 30px;
+    border-radius: 10px;
   }
 }

@@ -18,6 +18,7 @@ function App() {
             <Route path="/" element={<Shop />} />
             <Route path="/cart" element={<Cart />} />
           </Routes>
+
           <Footer />
         </Router>
       </ShopContextProvider>
