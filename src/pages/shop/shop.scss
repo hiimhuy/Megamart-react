@@ -30,12 +30,17 @@
     background-color: transparent;
     padding: 0 20px;
     font-size: 16px;
+    cursor: pointer;
+
+    &:hover {
+      color: #008ecc;
+    }
   }
 }
 
 .products {
   width: calc(100% - 240px);
-  height: 800px;
+  margin-bottom: 20px;
   display: grid;
   grid-template-columns: auto auto auto auto;
   place-items: center;
